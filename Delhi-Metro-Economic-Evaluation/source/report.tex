@@ -1,0 +1,306 @@
+\documentclass[11pt]{article}
+\input{report_style.tex}
+
+\title{Economic Evaluation of Delhi Metro Phase 4A}
+\author{Group 30}
+\date{}
+
+\begin{document}
+
+\reportTitlePage
+  {Economic Evaluation of Delhi Metro Phase 4A}
+  {CE 776: Transportation Project Evaluation and Decision Making}
+  {Course Project, Group 30}
+  {Lekshmi Muraleedharan (24M0544) \\ Yedukrishna K R (24M0545) \\ Sanjeev Patel (24M0546) \\
+   Ankit Raj (24M0548) \\ Rajasri S (24M0549) \\ Abhijeet Kumar Gaurav (24M0553)}
+  {Prof. Perumal Vedagiri}
+  {M.Tech in Transportation Systems Engineering}
+  {Spring 2025}
+
+\pagenumbering{roman}
+
+\reportAbstract{
+This report presents an economic evaluation of Delhi Metro Phase~4A, a 61.679~km, three-corridor
+mixed underground-and-elevated expansion of the Delhi Metro network (Aerocity--Tughlakabad,
+Janakpuri West--R.K.\ Ashram, and Mukundpur--Maujpur), including one of the network's longest
+underground corridors. Using standard project-appraisal techniques, namely Cost-Benefit Analysis (CBA),
+Economic Internal Rate of Return (EIRR), Net Present Value (NPV), and Benefit-Cost Ratio (BCR), the
+project's economic viability is assessed against its estimated completion cost of Rs.~24,948.65~crore.
+The evaluation finds an EIRR of 19.81\% (without discounting) and 6.97\% (at a 12\% discount rate),
+both exceeding or closely approaching the discount-rate threshold; a positive NPV of Rs.~394,074.7~crore
+(undiscounted) and Rs.~26,136.2~crore (discounted); and a Benefit-Cost Ratio of 5.7 (undiscounted) and
+1.99 (discounted), indicating that discounted benefits are nearly twice the discounted costs even
+under conservative assumptions. Sensitivity analysis confirms the project remains viable across
+tested scenarios, with EIRR never falling below 6.97\% and the discounted BCR staying above 1.99. The
+evaluation concludes that Delhi Metro Phase~4A is economically justified, offering a cost-effective and
+sustainable response to Delhi's growing urban transit demand.
+
+\vspace{0.3cm}
+\noindent\textbf{Keywords:} Cost-Benefit Analysis; Economic Internal Rate of Return; Net Present Value;
+Benefit-Cost Ratio; Metro Rail Appraisal; Delhi Metro Phase 4
+}
+
+\newpage
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+\section{Project Overview}
+
+\subsection{Project Description}
+Delhi Metro Phase~4A is a mixed underground-and-elevated metro expansion comprising one of the longest
+underground corridors in the Delhi Metro network. Table~\ref{tab:corridors} summarises the three
+corridors that make up the project.
+
+\begin{table}[H]
+  \centering
+  \caption{Corridor-wise route length for Delhi Metro Phase 4A.}
+  \label{tab:corridors}
+  \begin{tabular}{@{}lrrr@{}}
+    \toprule
+    \textbf{Corridor} & \textbf{Total (km)} & \textbf{Underground (km)} & \textbf{Elevated (km)} \\
+    \midrule
+    Aerocity -- Tughlakabad       & 20.201 & 14.619 & 5.582 \\
+    Janakpuri West -- R.K.\ Ashram & 28.920 & 7.740  & 21.180 \\
+    Mukundpur -- Maujpur          & 12.558 & 0.000  & 12.558 \\
+    \midrule
+    \textbf{Total}                & \textbf{61.679} & \textbf{22.359} & \textbf{39.320} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Across the three corridors, the project adds 79 stations (17 underground, 62 at/above grade,
+Table~\ref{tab:stations}) and is designed for a maximum speed of 95~km/h with a scheduled operating
+speed of 35~km/h.
+
+\begin{table}[H]
+  \centering
+  \caption{Corridor-wise station count.}
+  \label{tab:stations}
+  \small
+  \begin{tabular}{@{}p{4.3cm}rrrr@{}}
+    \toprule
+    \textbf{Corridor} & \textbf{Length (km)} & \textbf{UG stations} & \textbf{Elevated stations} & \textbf{Total} \\
+    \midrule
+    Aerocity -- Saket -- Tughlakabad & 20.20 & 10 & 5  & 15 \\
+    Janakpuri (West) -- R.K.\ Ashram & 28.92 & 7  & 18 & 25 \\
+    Mukundpur -- Burari -- Maujpur   & 12.54 & 0  & 6  & 6 \\
+    \midrule
+    \textbf{Total}                    & \textbf{61.66} & \textbf{17} & \textbf{29} & \textbf{79} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Purpose}
+The project is intended to (i) ease traffic pressure on major roads such as the Mehrauli-Badarpur Road
+and NH-48 and enhance connectivity between key urban locations and the airport; (ii) serve high
+ridership potential, with projected daily demand reaching 19.4~lakh passengers by 2026 (1.8~million by
+2031 and 2.59~million by 2041); and (iii) support sustainable urban transport by shifting travel to
+mass transit, thereby reducing carbon emissions, promoting energy-efficient travel, and improving air
+quality in Delhi.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.55\textwidth]{fig_metro_train.png}
+  \caption{Delhi Metro Rail Corporation rolling stock.}
+\end{figure}
+
+\subsection{Construction Methodology}
+Elevated sections use viaducts of prestressed-concrete ``box'' girders on single piers with pile or
+open foundations, while the underground section is built using tunnel boring machines, with cut-and-cover
+construction at underground stations.
+
+\subsection{Current Status and Funding}
+At the time of this evaluation, 2.03~km of Phase~4A was operational, 63.07~km was under construction,
+47.22~km was approved, and 10.17~km remained on hold/proposed. Funding sources for the project include
+the Government of India, the Delhi Development Authority (DDA), the Delhi Government, private
+investors, JICA, and domestic financial institutions.
+
+\section{Project Cost}
+The total estimated cost of the three corridors plus additional rolling stock, at January-2019 price
+levels including all taxes, is Rs.~22,493~crore; including Interest During Construction (IDC), the
+completion cost rises to Rs.~24,948.65~crore (Table~\ref{tab:cost}).
+
+\begin{table}[H]
+  \centering
+  \caption{Corridor-wise estimated completion cost (Rs.\ crore).}
+  \label{tab:cost}
+  \small
+  \begin{tabular}{@{}p{4.5cm}p{3.7cm}p{3.2cm}@{}}
+    \toprule
+    \textbf{Corridor} & \textbf{Estimated cost (Jan-2019 level, incl.\ taxes)} & \textbf{Completion cost (excl.\ IDC)} \\
+    \midrule
+    Aerocity -- Tughlakabad        & 8,231  & 9,217 \\
+    Janakpuri West -- R.K.\ Ashram & 9,349  & 10,357 \\
+    Mukundpur -- Maujpur           & 2,190  & 2,456 \\
+    Additional rolling stock       & 2,723  & 2,859 \\
+    \midrule
+    \textbf{Total}                 & \textbf{22,493} & \textbf{24,889} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \caption{Year-wise investment schedule (Rs.\ crore).}
+  \small
+  \begin{tabular}{@{}p{2.0cm}p{2.6cm}p{2.6cm}p{1.3cm}p{2.6cm}@{}}
+    \toprule
+    \textbf{Year} & \textbf{Est.\ constr.\ cost} & \textbf{Completion cost (taxes)} & \textbf{IDC} & \textbf{Completion cost (taxes+IDC)} \\
+    \midrule
+    2019--20 & 987.99  & 987.99  & --    & 987.99 \\
+    2020--21 & 5688.53 & 5954.61 & 4.66  & 5959.27 \\
+    2021--22 & 4349.36 & 4730.46 & 9.06  & 4739.52 \\
+    2022--23 & 5930.95 & 6710.46 & 18.87 & 6729.33 \\
+    2023--24 & 5535.55 & 6505.62 & 26.92 & 6532.54 \\
+    \midrule
+    \textbf{Total} & \textbf{22492.38} & \textbf{24889.14} & \textbf{59.51} & \textbf{24,948.65} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Economic Evaluation Framework}
+
+\subsection{Cost-Benefit Analysis}
+The economic evaluation follows standard Cost-Benefit Analysis (CBA) methodology, comparing the
+project's economic costs against its economic benefits over its appraisal life.
+
+\textbf{Costs included:} capital (construction) cost, land acquisition cost, and operating and
+maintenance costs, along with rolling-stock, environmental, utility-relocation, and contingency costs
+and interest during construction.
+
+\textbf{Benefits included:} travel-time savings, vehicle operating cost (VOC) savings, reduced air
+pollution and emissions, reduction in road accidents, and fuel savings. These are summarised as annual
+savings in road-infrastructure maintenance costs, annual fuel savings for metro passengers and diverted road
+users, annual travel-time savings for metro passengers and (via decongestion) for remaining road users,
+annual reduction in vehicle operating costs, cost savings from reduced emissions, and reduction in
+accident-related costs.
+
+\subsection{Evaluation Indicators}
+Three principal indicators were used to assess project viability:
+\begin{itemize}
+  \item \textbf{Economic Internal Rate of Return (EIRR):} the discount rate at which the present
+  value of economic benefits equals the present value of economic costs; if EIRR exceeds the assumed
+  discount rate, the project is economically viable.
+  \item \textbf{Net Present Value (NPV):} the difference between the present value of benefits and
+  the present value of costs over the project's life; a positive NPV indicates the project adds
+  economic value to society.
+  \item \textbf{Benefit-Cost Ratio (BCR):} the ratio of discounted benefits to discounted costs; a
+  BCR greater than 1 indicates benefits exceed costs.
+\end{itemize}
+
+A sensitivity analysis was additionally performed to assess how changes in traffic and cost assumptions
+affect project viability, using EIRR and BCR as the response indicators.
+
+\section{Economic Evaluation Results}
+
+\subsection{Base-Case Indicators}
+Table~\ref{tab:econindicators} reports the base-case (2048--49 appraisal-period) economic indicator
+values, with and without discounting.
+
+\begin{table}[H]
+  \centering
+  \caption{Economic indicator values (base case, 2048--49).}
+  \label{tab:econindicators}
+  \begin{tabular}{@{}lrr@{}}
+    \toprule
+    & \textbf{Without discount} & \textbf{With discount (12\%)} \\
+    \midrule
+    Total cumulative cost (Rs.\ crore)    & 83,707.27  & 26,397.66 \\
+    Total cumulative benefit (Rs.\ crore) & 477,782    & 52,534 \\
+    Benefit-Cost Ratio                    & 5.70       & 1.99 \\
+    Net Present Value (Rs.\ crore)        & 394,074.7  & 26,136.2 \\
+    EIRR                                  & 19.81\%    & 6.97\%\textsuperscript{*} \\
+    \bottomrule
+  \end{tabular}
+  \\[2pt]
+  \raggedright\footnotesize\textsuperscript{*}A companion slide in the source deck reports 6.91\% for
+  the same discounted-EIRR figure; the discrepancy is a minor rounding/transcription difference in the
+  original material and does not affect the conclusion that EIRR remains well above typical hurdle
+  rates for public transit investment.
+\end{table}
+
+Since EIRR (19.81\% undiscounted) exceeds the 12\% discount rate used, and the NPV is positive under
+both undiscounted and discounted assumptions, the project is economically viable: for every Rs.~1
+invested, the undiscounted analysis projects Rs.~5.7 of benefits, and even under the more conservative
+12\%-discounted analysis, benefits are projected at nearly double the costs (BCR~=~1.99).
+
+A separate Financial Internal Rate of Return (FIRR) was also estimated: 8.03\% without Transit-Oriented
+Development (TOD) and Value Capture Financing (VCF) income, rising to 9.60\% when TOD/VCF revenue
+streams are included, indicating that non-fare revenue mechanisms materially improve the project's
+financial (as distinct from economic) return.
+
+\subsection{Sensitivity Analysis}
+Sensitivity analysis assessed how changes in traffic and cost assumptions affect project viability. The
+project remained viable across the scenarios tested, with EIRR never falling below 6.97\% and the
+discounted Benefit-Cost Ratio never falling below 1.99, indicating that the economic case for Phase~4A
+is robust to reasonable variation in underlying assumptions.
+
+\section{Project Benefits}
+Project benefits are classified as direct and indirect (Table~\ref{tab:benefits}).
+
+\begin{table}[H]
+  \centering
+  \caption{Direct and indirect project benefits.}
+  \label{tab:benefits}
+  \begin{tabular}{@{}ll@{}}
+    \toprule
+    \textbf{Direct benefits} & \textbf{Indirect benefits} \\
+    \midrule
+    Expedited commutes       & Job creation \\
+    Reduced congestion       & Business growth \\
+    Vehicle cost savings     & Greener environment \\
+    Economical transport     & Property appreciation \\
+    Enhanced safety          & Improved air quality \\
+    Fare revenue             & Economic development \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{fig_metro_network_map.png}
+  \caption{Delhi Metro network, showing Phase I--IV and proposed monorail corridors.}
+\end{figure}
+
+\section{Conclusion and Recommendations}
+
+\subsection{Economic Viability Summary}
+\begin{itemize}
+  \item \textbf{EIRR (19.81\%)} exceeds the 12\% discount-rate threshold, indicating strong
+  socio-economic benefits such as reduced travel time, fewer accidents, and environmental gains.
+  \item \textbf{NPV is positive} under both discounted and undiscounted assumptions, reinforcing the
+  project's long-term economic viability.
+  \item \textbf{Benefit-Cost Ratio} of 5.71 (undiscounted) and 1.99 (at 12\% discount) shows that even
+  under conservative assumptions, benefits substantially exceed costs.
+  \item \textbf{Sensitivity analysis} confirms the project remains viable across scenarios tested,
+  with EIRR never falling below 6.97\% and discounted BCR staying above 1.99.
+\end{itemize}
+
+\subsection{Key Takeaways for Decision-Makers}
+A strong EIRR and BCR confirm the economic viability of the project; earlier completion yields higher
+cumulative benefits (as delay defers benefit realisation while cost escalation continues); the project
+is critical for sustainable urban growth in the National Capital Region; the corridor alignment
+strategically links major employment, residential, and transit nodes; and there is an opportunity for
+policy synergies through last-mile connectivity investment alongside the metro expansion.
+
+\subsection{Learnings}
+This exercise provided hands-on experience in economic evaluation techniques, namely Cost-Benefit
+Analysis, EIRR, and NPV, and in interpreting sensitivity analysis to assess project risk under
+uncertainty. It
+also highlighted the real-world impact of large transit infrastructure investment on urban mobility
+and the importance of data-driven planning in public transport project appraisal.
+
+\subsection{Concluding Remarks}
+Delhi Metro Phase~4A is economically justified, not only meeting but significantly surpassing standard
+evaluation thresholds. It stands as a cost-effective, sustainable response to Delhi's growing urban
+transit demand, illustrating how thoughtful transport planning can deliver economic, environmental, and
+social benefits simultaneously, while underscoring the need for inter-agency coordination and timely
+execution to realise its full potential.
+
+\begin{thebibliography}{9}
+\bibitem{dmrc} Delhi Metro Rail Corporation Ltd. \textit{Detailed Project Report: Delhi Metro Phase 4}.
+\bibitem{mort} Ministry of Housing and Urban Affairs, Government of India. \textit{Metro Rail Policy}.
+\end{thebibliography}
+
+\end{document}

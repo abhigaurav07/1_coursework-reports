@@ -1,0 +1,93 @@
+% =========================================================================
+% SHARED STYLE FILE for 11_Master_Projects reports
+% Visual style follows 0_Thesis_Submission/24m0553_AK_Gaurav_Mtech_Report.pdf:
+% serif body font, blue hyperlinked TOC/links, ruled section headings,
+% IITB-style title page, formal academic report structure.
+% =========================================================================
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{xcolor}
+\Sepackage{graphicx}
+graphicspath{{../images/}}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% Every \includegraphics call is automatically framed with a thin black
+% border (matches the printed look of figures/photos/charts in the source
+% reports). \oldincludegraphics is kept available for institutional
+% logos/seals on title pages, which should remain unframed.
+\let\oldincludegraphics\includegraphics
+\setlength{\fboxsep}{1pt}
+\setlength{\fboxrule}{0.6pt}
+\renewcommand{\includegraphics}[2][]{\fbox{\oldincludegraphics[#1]{#2}}}
+
+\definecolor{thesisblue}{RGB}{0,0,205}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=thesisblue,
+  urlcolor=thesisblue,
+  citecolor=thesisblue,
+  filecolor=thesisblue
+}
+
+\onehalfspacing
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+
+\newcommand{\reportTitlePage}[7]{%
+  % #1 = Report title
+  % #2 = Course code & name (e.g. "CE 605: Applied Statistics")
+  % #3 = Subtitle/topic line (e.g. "Project Report 2: Network Analysis")
+  % #4 = Author block (can be multi-line with \\ for group projects)
+  % #5 = Supervisor name(s)
+  % #6 = Programme line (e.g. "M.Tech in Transportation Systems Engineering")
+  % #7 = Month/Year
+  \begin{titlepage}
+    \centering
+    \vspace*{0.5cm}
+    {\large\bfseries #2}\par
+    \vspace{0.3cm}
+    {\Large\bfseries #3}\par
+    \vspace{1.2cm}
+    {\Huge\bfseries #1}\par
+    \vspace{1.5cm}
+    \oldincludegraphics[width=3.2cm]{../../assets/iitb_logo.png}\par
+    \vspace{1.2cm}
+    Submitted by:\par
+    \vspace{0.2cm}
+    {\bfseries #4}\par
+    \vspace{0.8cm}
+    Under the Supervision of\par
+    \vspace{0.2cm}
+    {\bfseries #5}\par
+    \vspace{1.2cm}
+    #6\par
+    Department of Civil Engineering\par
+    \textbf{Indian Institute of Technology Bombay}\par
+    Mumbai -- 400076, India\par
+    \vspace{0.3cm}
+    #7\par
+  \end{titlepage}
+}
+
+\newcommand{\reportAbstract}[1]{%
+  \section*{Abstract}
+  #1
+  \vspace{0.5cm}
+}
