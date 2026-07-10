@@ -48,5 +48,5 @@ coursework-reports/
 ## Author
 
 **Abhijeet Kumar Gaurav**
-M.Tech, Transportation Systems Engineering — IIT Bombay
-B.Tech, Civil Engineering — IIT (BHU) Varanasi
+- M.Tech, Transportation Systems Engineering — Indian Institute of Technology Bombay (2024–2026)
+- B.Tech, Civil Engineering — Indian Institute of Technology (BHU) Varanasi (2020–2024)
