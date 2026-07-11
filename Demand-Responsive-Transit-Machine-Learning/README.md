@@ -1,6 +1,6 @@
 # Bridging the Mobility Gap: A Study on Demand-Responsive Transit
 
-**Course:** CE 694 — Credit Seminar
+**Course:** CE 694: Credit Seminar
 **Programme:** M.Tech in Transportation Systems Engineering, IIT Bombay · May 2025
 
 ## Objective

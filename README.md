@@ -27,7 +27,7 @@ This repository serves as a portfolio of academic and analytical work, organized
 | [Thane Station Mobility Ecology](Thane-Station-Mobility-Ecology/) | PS 651: Mobility Policy and Infrastructure | Qualitative Field Research, Systems Analysis | [report.pdf](Thane-Station-Mobility-Ecology/report.pdf) |
 | [Land Use Land Cover Change Analysis](Land-Use-Land-Cover-Change-Analysis/) | B.Tech Exploratory Project | ArcGIS, Landsat, Remote Sensing | [report.pdf](Land-Use-Land-Cover-Change-Analysis/report.pdf) |
 | [Public Transport Accessibility Analysis](Public-Transport-Accessibility-Analysis/) | B.Tech Project (BTP) | Python, OLS Regression, GIS, PTAL Methodology | [report.pdf](Public-Transport-Accessibility-Analysis/report.pdf) |
-| [Demand-Responsive Transit — Machine Learning](Demand-Responsive-Transit-Machine-Learning/) | CE 694: Credit Seminar | Python, Random Forest, ANN, DNN, SHAP | [report.pdf](Demand-Responsive-Transit-Machine-Learning/report.pdf) |
+| [Demand-Responsive Transit: Machine Learning](Demand-Responsive-Transit-Machine-Learning/) | CE 694: Credit Seminar | Python, Random Forest, ANN, DNN, SHAP | [report.pdf](Demand-Responsive-Transit-Machine-Learning/report.pdf) |
 
 ## Repository Structure
 
@@ -48,5 +48,5 @@ coursework-reports/
 ## Author
 
 **Abhijeet Kumar Gaurav**
-- M.Tech, Transportation Systems Engineering — Indian Institute of Technology Bombay (2024–2026)
-- B.Tech, Civil Engineering — Indian Institute of Technology (BHU) Varanasi (2020–2024)
+- M.Tech, Transportation Systems Engineering, Indian Institute of Technology Bombay (2024-2026)
+- B.Tech, Civil Engineering, Indian Institute of Technology (BHU) Varanasi (2020-2024)

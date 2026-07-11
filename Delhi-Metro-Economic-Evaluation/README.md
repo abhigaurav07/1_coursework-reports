@@ -1,12 +1,12 @@
 # Economic Evaluation of Delhi Metro Phase 4A
 
-**Course:** CE 776 — Transportation Project Evaluation and Decision Making
+**Course:** CE 776: Transportation Project Evaluation and Decision Making
 **Programme:** M.Tech in Transportation Systems Engineering, IIT Bombay · Spring 2025
 **Team Project** (Group 30)
 
 ## Objective
 
-To assess the economic viability of Delhi Metro Phase 4A — a 61.7 km, 3-corridor, ₹24,949 crore metro expansion — through a formal cost-benefit analysis and to produce a policy-ready appraisal recommendation.
+To assess the economic viability of Delhi Metro Phase 4A (a 61.7 km, 3-corridor, ₹24,949 crore metro expansion) through a formal cost-benefit analysis and to produce a policy-ready appraisal recommendation.
 
 ## Brief Description
 

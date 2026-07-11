@@ -1,6 +1,6 @@
 # Sensitivity Analysis and Operational Improvement Strategies for the H10 T-Junction, IIT Bombay Campus
 
-**Course:** CE 774 — Traffic Management and Design
+**Course:** CE 774: Traffic Management and Design
 **Programme:** M.Tech in Transportation Systems Engineering, IIT Bombay
 
 ## Objective
@@ -9,7 +9,7 @@ To evaluate the operational performance of a busy unsignalized T-junction (H10, 
 
 ## Brief Description
 
-A PTV VISSIM microsimulation model of the H10 junction was built and calibrated using field-collected peak-hour traffic composition across 7 vehicle classes. The model was used to run sensitivity analysis across three traffic-growth scenarios and to test two operational interventions — lane widening and dedicated cycle tracks — against signal-warrant criteria.
+A PTV VISSIM microsimulation model of the H10 junction was built and calibrated using field-collected peak-hour traffic composition across 7 vehicle classes. The model was used to run sensitivity analysis across three traffic-growth scenarios and to test two operational interventions (lane widening and dedicated cycle tracks) against signal-warrant criteria.
 
 ## Methodology
 
@@ -17,7 +17,7 @@ A PTV VISSIM microsimulation model of the H10 junction was built and calibrated 
 - Built and calibrated a PTV VISSIM microsimulation model of the junction.
 - Ran sensitivity analysis at 2%, 5%, and 7% traffic-growth scenarios, measuring travel time, delay, queue length, and Level of Service (LOS).
 - Simulated two non-signalized interventions (lane widening, dedicated cycle lanes) and benchmarked results against IRC:93 signal-warrant criteria.
-- Achieved delay reductions of up to 75–100% under the proposed interventions, supporting a data-backed recommendation against signalization.
+- Achieved delay reductions of up to 75-100% under the proposed interventions, supporting a data-backed recommendation against signalization.
 
 ## Tools Used
 
