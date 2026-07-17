@@ -45,13 +45,11 @@ assignment's question.
 - Extracted chart and diagram figures (hourly-volume and traffic-histogram charts from Assignment 2,
   cross-section diagrams from Assignment 3, and conflict-diagram/field photographs from Assignment 4)
   as image files for inclusion in the compiled report.
-- Merged the four original submission PDFs into a single reference PDF
-  (`source_assignments_combined.pdf`) as a backup of the raw originals.
 
 ## Tools Used
 
 LaTeX (pdflatex), `pdftotext`/`pdftoppm` (Poppler utilities) for source-PDF text and image extraction,
-`pdfunite` for merging the original submission PDFs, and IRC/MoRTH design-standard references.
+and IRC/MoRTH design-standard references.
 
 ## Repository Structure
 
@@ -59,7 +57,6 @@ LaTeX (pdflatex), `pdftotext`/`pdftoppm` (Poppler utilities) for source-PDF text
 CE773-Highway-Design-Coursework-Assignments/
 ├── README.md
 ├── report.pdf                          # Final compiled report
-├── source_assignments_combined.pdf      # Merged original submission PDFs (reference only)
 ├── images/                              # Figures used in the report
 └── source/                              # LaTeX source
     ├── report.tex
